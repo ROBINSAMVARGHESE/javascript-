@@ -16,7 +16,8 @@ function areaRectangle(a, b) {
 }
 console.log("Area = " + areaRectangle(a, b));
 
-// 3. Create a program that asks the user for their age and determines if they are eligible to vote (considering a voting age of 18).
+// 3. Create a program that asks the user for their age and determines if they
+// are eligible to vote (considering a voting age of 18).
 
 var Age = 0;
 if(Age >= 21) {
@@ -25,7 +26,8 @@ if(Age >= 21) {
  console.log('you are not eligible  for voting');
 }
 
-//4. Write a script that takes a user's grade as input and outputs whether they passed or failed (assuming the passing grade is 60 or above).
+//4. Write a script that takes a user's grade as input and outputs whether 
+//they passed or failed (assuming the passing grade is 60 or above).
 
 let score = 70;
 
@@ -74,8 +76,18 @@ switch (age) {
         console.log('invalid age');
 }
 
+// 7.find the square of each number in an array=[1,3,9,12,15,18,21] using loop.
 
-// find the sum of all the odd numbers
+let A=[1,3,9,12,15,18,21]
+for(i=0; i<7; i++)
+{
+  A[i]=A[i]*A[i]
+}
+console.log("square of array elments= ",A)
+
+
+// 8.  Write a program to find the sum of all the odd numbers for a given limit 
+//(if you choose limit as 10 then need to find the sum of all odd numbers in between 1 and 10 )
 
 const odd = [];
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -87,20 +99,5 @@ for (const num of arr) {
 console.log(odd);
 
 
-
-
-// find the square of each number
-
-
-
-
-// using If-else statement for " you are eligble for voting "
-
-var Age = 0;
-if(Age >= 21) {
- console.log('you are eligible for voting');
-} else {
- console.log('you are not eligible  for voting');
-}
 
 
