@@ -8,22 +8,22 @@ console.log("Sum :", sum)
 
 // 2.Implement a program that calculates the area of a rectangle using user-provided length and width.
 
-let a = 500;
-let b = 60;
+let a = 7;
+let b = 6;
 function areaRectangle(a, b) {
     let area = a * b;
     return area;
 }
-console.log("Area = " + areaRectangle(a, b));
+console.log("Area = " + areaRectangle(a, b) +"cm");
 
 // 3. Create a program that asks the user for their age and determines if they
 // are eligible to vote (considering a voting age of 18).
 
-var Age = 0;
+var Age = 18;
 if(Age >= 21) {
  console.log('you are eligible for voting');
 } else {
- console.log('you are not eligible  for voting');
+ console.log('you are not eligible for voting');
 }
 
 //4. Write a script that takes a user's grade as input and outputs whether 
