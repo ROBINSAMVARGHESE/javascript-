@@ -57,8 +57,23 @@ else if(digit=0)
 
 // 6. Finding the user's age and checks if they are a child,teenger, Adult or Senior
 
-
-
+let age=58;
+if (age <=0 || age <=12) 
+    {
+ console.log(' Child ')
+} 
+else if (age <=13 || age<=19) 
+    {
+  console.log(' Teenger ');
+}
+ else if ( age <=20 || age<=59 ) 
+    {
+  console.log(' Adult ');
+}
+else if(age>=60)
+    {
+    console.log(' Senior ');
+}
 // 7.find the square of each number in an array=[1,3,9,12,15,18,21] using loop.
 
 let array1=[1,3,9,12,15,18,21]
@@ -67,7 +82,6 @@ for(i=0; i<7; i++)
   let square=array1[i]**2
   console.log(' Square of '+ array1[i] + ' is ' + square);
 }
-
 
 
 // 8.  Write a program to find the sum of all the odd numbers for a given limit 
@@ -80,25 +94,6 @@ for(i=1; i<10 ;i+=2)
         sum1+=i 
     }
 console.log(' Sum of odd numbers upto 10 is '+ sum1);
-
-
-let age=75;
-if (age <=0 || age <=12) 
-    {
- console.log('Child')
-} 
-else if (age <=13 || age<=19) 
-    {
-  console.log('Teenger');
-}
- else if ( age <=20 || age<=59 ) 
-    {
-  console.log('Adult');
-}
-
-else if(age>=60){
-    console.log('Senior');
-}
 
 
 
