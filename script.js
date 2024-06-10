@@ -40,19 +40,19 @@ else {
 
 // 5. Implement a program that checks if a user's entered number is positive, negative, or zero.
 
-let num = 1;
-
-switch (num) {
-    case 1:
-        console.log("Positive nunber");
-        break;
-    case -1:
-        console.log("Negative number");
-        break;
-    case 0:
-        console.log(" Number Zero");
-        break;
+let digit=10
+if(digit>0)
+{
+    console.log('Number is +ve');
 }
+else if(digit<0)
+    {
+        console.log('Number is -ve');
+    }
+else if(digit=0)
+    {
+        console.log('Number is zero');
+    }
 
 
 // 6. Finding the user's age and checks if they are a child,teenger, Adult or Senior
