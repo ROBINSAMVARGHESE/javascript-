@@ -78,12 +78,13 @@ switch (age) {
 
 // 7.find the square of each number in an array=[1,3,9,12,15,18,21] using loop.
 
-let A=[1,3,9,12,15,18,21]
+let array1=[1,3,9,12,15,18,21]
 for(i=0; i<7; i++)
 {
-  A[i]=A[i]*A[i]
+  let square=array1[i]**2
+  console.log('square of'+ array1[i] + ' is ' + square);
 }
-console.log("square of array elments= ",A)
+
 
 
 // 8.  Write a program to find the sum of all the odd numbers for a given limit 
